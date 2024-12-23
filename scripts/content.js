@@ -19,7 +19,7 @@ function filter() {
         .replace("/audiobook-overdrive/", "/audiobook-mp3/"),
     );
     dlBtn.innerHTML =
-      '<b>Download</b><br/><span class="dl-text">MP3 audiobook</span>';
+      '<b>Download</b><br/><span class="dl-text">MP3 audiobook (odm)</span>';
     dlBtn.setAttribute("target", "");
     listenBtn.parentNode.appendChild(dlBtn);
   }
