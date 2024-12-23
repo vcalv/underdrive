@@ -14,5 +14,10 @@
       "js": ["scripts/content.js"],
       "matches": ["*://*.overdrive.com/account/loans"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b5c6c1fb-8602-4712-ac65-7dbe5034d33a}"
+    }
+  }
 }
