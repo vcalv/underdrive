@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{b5c6c1fb-8602-4712-ac65-7dbe5034d33a}": {
+      "updates": [
+        {
+          "version": "0.1",
+          "update_link": "fake_url"
+        }
+      ]
+    }
+  }
+}
