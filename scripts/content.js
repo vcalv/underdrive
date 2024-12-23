@@ -1,4 +1,8 @@
 function filter() {
+  for (const delBtn of document.querySelectorAll("div.loan-button-audiobook")) {
+    console.debug(`Removing ${delBtn}`);
+    delBtn.remove();
+  }
   for (const listenBtn of document.querySelectorAll(
     'a[data-format-id="audiobook-overdrive"]',
   )) {
@@ -6,7 +10,7 @@ function filter() {
     var dlBtn = listenBtn.cloneNode();
     dlBtn.setAttribute(
       "class",
-      "loan-button-nonkindle button radius primary downloadButton script-added",
+      "loan-button-nonkindle button radius primary downloadButton",
     );
     dlBtn.setAttribute(
       "href",
