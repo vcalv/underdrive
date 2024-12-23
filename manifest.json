@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Underdrive",
+  "version": "1.0",
+  "description": "Add download mp3/odm button to overdrive pages",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "*://*.overdrive.com/*"
+      ]
+    }
+  ]
+
+}
+
