@@ -3,8 +3,8 @@
     "{b5c6c1fb-8602-4712-ac65-7dbe5034d33a}": {
       "updates": [
         {
-          "version": "0.1",
-          "update_link": "fake_url"
+          "version": "1.2",
+          "update_link": "https://cdn.statically.io/gh/vcalv/underdrive/master/web-ext-artifacts/559d8e3e0e284bddbbfa-1.2.xpi"
         }
       ]
     }
