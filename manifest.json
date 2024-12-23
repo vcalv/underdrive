@@ -4,16 +4,15 @@
   "version": "1.0",
   "description": "Add download mp3/odm button to overdrive pages",
   "icons": {
-    "64": "icons/icon.png"
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
-      "matches": [
-        "*://*.overdrive.com/*"
-      ]
+      "matches": ["*://*.overdrive.com/account/loans"]
     }
   ]
-
 }
-
