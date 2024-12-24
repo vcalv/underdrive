@@ -1,5 +1,11 @@
 **[INSTALL LATEST VERSION](https://cdn.statically.io/gh/vcalv/underdrive/master/web-ext-artifacts/559d8e3e0e284bddbbfa-1.2.xpi)**
 
+# Description
+
+Firefox extension for Overdrive.
+
+**Only Firefox supported**
+
 # Usage
 
 Allows you to use [Overdrive](https://overdrive.com) as if mp3/odm download was still available.
