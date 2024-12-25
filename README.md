@@ -6,6 +6,8 @@ Firefox extension for Overdrive.
 
 **Only Firefox supported**
 
+It should work in every browser that supports `Manifest v3`, but will require manual instalation with all the associated problems.
+
 # Usage
 
 Allows you to use [Overdrive](https://overdrive.com) as if mp3/odm download was still available.
