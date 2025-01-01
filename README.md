@@ -1,4 +1,4 @@
-**[INSTALL LATEST VERSION](https://cdn.statically.io/gh/vcalv/underdrive/master/web-ext-artifacts/559d8e3e0e284bddbbfa-1.2.xpi)**
+**[INSTALL LATEST VERSION](https://cdn.jsdelivr.net/gh/vcalv/underdrive@master/web-ext-artifacts/559d8e3e0e284bddbbfa-1.3.xpi)**
 
 # Description
 
