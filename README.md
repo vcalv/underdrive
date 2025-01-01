@@ -4,9 +4,15 @@
 
 Firefox extension for Overdrive.
 
-**Only Firefox supported**
+**Only Firefox supported as a single click install with auto update**
 
 It should work in every browser that supports `Manifest v3`, but will require manual instalation with all the associated problems.
+
+For info on how you might be able to install it in other browsers [this](https://www.youtube.com/watch?v=yNFwFQrc27Q) is a good video introduction.
+
+I've now tested it with chromium and it works (v1.3).
+
+My suggestion is, for now just do all your Overdrive business in Firefox and install it from the link at the top of this README.
 
 # Usage
 
