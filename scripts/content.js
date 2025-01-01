@@ -1,8 +1,15 @@
-function filter() {
-  for (const delBtn of document.querySelectorAll("div.loan-button-audiobook")) {
-    console.debug(`Removing ${delBtn}`);
-    delBtn.remove();
+function delete_elements(selector) {
+  for (const delEllem of document.querySelectorAll(selector)) {
+    console.debug(`Removing ${delEllem}`);
+    delEllem.remove();
   }
+}
+
+function filter() {
+  // Try to delete bogus libby elements
+  delete_elements("div.loan-button-audiobook");
+  delete_elements(".Libby-Loans-CTA");
+
   for (const listenBtn of document.querySelectorAll(
     'a[data-format-id="audiobook-overdrive"]',
   )) {
